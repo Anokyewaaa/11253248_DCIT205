@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Ghana Computer Science Department - Academics</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Text color */
+            /* Add a gradient background from deep red to ash */
+            background: linear-gradient(45deg, #990000, #dddddd);
+        }
+
+        header, footer, nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            display: inline-block;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        /* Style for tabs */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .tab.active {
+            background-color: #333;
+        }
+
+        .tab-content {
+            display: none;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+    <script>
+        function showTab(tabName) {
+            
+            var tabContents = document.getElementsByClassName("tab-content");
+            for (var i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove("active");
+            }
+
+            
+            var tabs = document.getElementsByClassName("tab");
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove("active");
+            }
+
+            
+            document.getElementById(tabName + "-content").classList.add("active");
+
+            
+            document.getElementById(tabName).classList.add("active");
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <img id="school-logo" src="images/comScience_logo.png" alt="School Logo">
+        
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Academics.html">Academics</a>
+        
+    </nav>
+
+    <section id="academics">
+        <h2>Academics</h2>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <div class="tab active" onclick="showTab('undergraduate')">Undergraduate Courses</div>
+            <div class="tab" onclick="showTab('mphil')">MPhil Computer Science</div>
+            <div class="tab" onclick="showTab('msc')">MSc Computer Science</div>
+            <div class="tab" onclick="showTab('phd')">PhD</div>
+            <div class="tab" onclick="showTab('timetable')">Academic Timetable</div>
+        </div>
+
+        <!-- Tab contents -->
+        <div id="undergraduate-content" class="tab-content active">
+            <h3>Undergraduate Courses</h3>
+            <ul>
+                <!-- List undergraduate courses here -->
+                <li>Course 1</li>
+                <li>Course 2</li>
+                <!-- Add more courses as needed -->
+            </ul>
+        </div>
+
+        <div id="mphil-content" class="tab-content">
+            <h3>MPhil Computer Science</h3>
+            <h3> Level 600</h3>
+            <h4>First Semester</h4>
+            <ul>
+                <li>CSCD 601	Research Methods</li>
+                <li>CSCD 603	Advanced Data Structures and Algorithm</li>
+                <li>CSCD 609	Principles of Wireless and Mobile Systems</li>
+                </ul>
+                <h4>Electives</h4>
+                <ul>
+                    <li>CSCD 607	Advanced Computer Networks</li>
+                    <li>CSCD 611	Advanced Database System</li>
+                    <li>CPEN 641	Advanced Operating Systems</li>
+                    <li>CPEN 637	Human Computer Interaction</li>
+                </ul>
+                <h3> level 600</h3>
+                <h4> Second Semester</h4>
+                <ul>
+                    <li>CSCD 606	Advanced Software Engineering</li>
+                    <li>CSCD 604	Distributed Systems</li>
+                    <li>CSCD 610	Seminar I</li>
+                    <li>CSCD 612	Intelligent Systems</li>
+                    </ul>
+                <h3>Electives</h3>
+                <ul>
+                    <li>CSCD 616	Bioinformatics</li>
+                    <li>CSCD 608	Advanced Computer Vision</li>
+                    <li>CSCD 614	Wireless Systems Design</li>
+                    <li>CPEN 656	Networks Security</li>
+                    <li>MATH 652	Computational Mathematics</li>
+                    <li>CSCD 630	MPhil Thesis</li>
+                </ul>
+
+        </div>
+
+        <div id="msc-content" class="tab-content">
+            <h3>MSc Computer Science</h3>
+            <h3>level 600</h3>
+            <h4>First Semester</h4>
+            <ul>
+                <li>CSCD 601	Research Methods</li>
+                <li>CSCD 603	Advanced Data Structures and Algorithm</li>
+                <li>CSCD 609	Principles of Wireless and Mobile Systems</li>
+            </ul>
+             <h4>Electives</h4>
+            <ul> 
+                <li>CSCD 607	Advanced Computer Networks</li>
+                <li>CSCD 611	Advanced Database Systems</li>
+                <li>CPEN 641	Advanced Operating Systems</li>
+                <li>CPEN 637	Human Computer Interaction</li>
+              </ul>
+              <h3>Second Semester</h3>
+              <ul>
+                <li>CSCD 602	Advanced Software Engineering</li>
+                <li>CSCD 604	Distributed System</li>
+                <li>CSCD 610	Seminar I</li>
+                <li>CSCD 612	Intelligent Systems</li>
+            </ul>
+            <h3>Electives</h3>
+            <ul>
+                <li>CSCD 606	Bioinformatics</li>
+                <li>CSCD 608	Advanced Computer Vision</li>
+                <li>CSCD 614	Wireless Systems Design</li>
+                <li>CPEN 656	Networks Security</li>
+                <li>MATH 652	Computational Mathematics</li>
+                <li>CSCD 600	MSc Dissertation</li>
+            </ul>
+
+        </div>
+
+        <div id="phd-content" class="tab-content">
+            <h3>PhD</h3>
+            <h3>First Semester</h3>
+            <h3>Year 1</h3>
+            <ul>
+                <li> FASC 701	Science and Society (Faculty Wide)</li>
+                <li>FASC 700	Special Topics in Science</li>
+                <li>Course 2</li>
+                 </ul>
+                 <h3>Electives</h3>
+                 <ul>
+                   <li>CSCD 721	Grand Research Challenges in Computer Science</li> 
+                  <li>CSCD 723	Emerging Database Models</li>
+                  <li>CSCD 725	Research in Bioinformatics and Computational Biology</li>
+                  <li>CSCD 727	Ubiquitous Computing</li>
+                 </ul>
+                 <h3>Second Semester</h3>
+                 <ul>
+                    <li>CSCD 722	New Developments in Cyber Security and Network</li>
+                    <li>FASC 702	Advanced Quantitative Research Methods</li>
+                    </ul>
+                    <h3>Electives</h3>
+                    <ul>
+                         <li> CSCD 724	New Developments in Computer Architecture</li>
+                         <li>CSCD 726	Next Generation Wireless Systems and Networks</li>
+                         <li>CSCD 716	New Directions in Artificial Intelligence</li>
+                         <li>CSCD 728	Research Issues in Social Networks</li>
+                         <li>CSCD 732	Advances in High Performance Computing</li>
+                         <li>FASC 710	Teaching Science at the Tertiary Level</li>
+                    </ul>
+                    <h2>YEAR 2</h2>
+                    <h3>First Semester</h3>
+                    <ul>
+                        <li>CSCD 710	Seminar I (Research Proposal)</li>
+                    </ul>
+                    <h3>Second Semester</h3>
+                    <ul>
+                        <li> CSCD 720	Seminar II (Experiential research learning)</li>
+                    </ul>
+                    <h2>YEAR 3</h2>
+                    <h3>First Semester</h3>
+                    <ul>
+                        <li>CSCD 730	Seminar III (Research progress) </li>
+                    </ul>
+                    <h2>YEAR 4</h2>
+                    <h3>Second Semester</h3>
+                    <ul>
+                        <li>CSCD 740	Seminar IV (Research Results)</li>
+                        <li>CSCD 700	PhD Thesis</li>
+                    </ul>
+        </div>
+  <div id="timetable content" class="tab content">
+    <h3> Academic Timetable</h3>
+    <img src="images/time table.jpg" alt="timetable">
+         </div>
+    </section>
+
+    <footer>
+        Copyright ©2023 All rights reserved
+    </footer>
+
+</body>
+</html>

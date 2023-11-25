@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #990000, #dddddd);
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+        }
+
+        .school-logo {
+            max-width: 600px;
+            margin-right: 10px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            display: inline-block;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; 
+            align-items: center; 
+            gap: 50px; /
+        }
+
+        .card {
+            background-color: #333;
+            color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        
+        .cards-container .card:nth-child(1),
+        .cards-container .card:nth-child(2) {
+            margin-bottom: 50px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img class="school-logo" src="images/comScience_logo.png" alt="School Logo">
+        <h1>School Events</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Academics.html">Academics</a>
+        <a href="Events.html">Events</a>
+    </nav>
+
+    <section>
+
+    
+        <div class="cards-container">
+
+            
+            <div class="card">
+                <img src="images/event.1" alt="Event Image 1">
+                <h3>Online Short Courses</h3>
+                <p>Date: [20th August, 2020]</p>
+                <p>Our eight week intensive 
+                    Certificate course is opened to 
+                    senior high school graduates,
+                    tetiary students, school 
+                    graduates, workers and 
+                        general public
+                </p>
+                <p>Deadline:17th September 20221</p>
+            </div>
+
+            
+            <div class="card">
+                <img src="images/event.2" alt="Event Image 2">
+                <h3>Cyber Security</h3>
+                <p>Date: 2nd and 3rd December</p>
+                <p>Time: 8:30 am - 3:30 pm
+                    Venue: Computer Science Department -
+                     University of Ghana</p>
+                
+            </div>
+
+            <!-- Event 3 -->
+            <div class="card">
+                <img src="images/event3.jpeg" alt="Event Image 3">
+                <h3>Becoming a World Class 
+                    Software Engineer
+                </h3>
+                <p>Date: [20th August 2020]</p>
+                <p>Venue - Software Lab</p>
+                </div>
+
+            <!-- Add more events as needed -->
+
+        </div>
+
+    </section>
+
+    <footer>
+        &copy; 2023 Your School Name. All rights reserved.
+    </footer>
+
+</body>
+</html>

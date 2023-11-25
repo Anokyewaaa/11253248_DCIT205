@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .faculty-container {
+      text-align: center;
+      margin: 60px auto;
+      padding: 20px;
+      width: 80%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .school-logo {
+      max-width: 800px;
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+    }
+
+
+    .faculty-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .faculty-card:hover {
+      transform: scale(1.05);
+    }
+
+    .faculty-img {
+      width: 50vb;
+      max-height: 50vb;
+      object-fit: cover;
+    }
+
+    .faculty-info {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+  <title>Faculty Page</title>
+</head>
+<body>
+    <header>
+        <img class="school-logo" src="images/comScience_logo.png" alt="School Logo">
+         <h1>Faculty</h1>
+    </header>
+
+  <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Academics.html">Academics</a>
+    <a href="Faculty.html">Faculty</a>
+    <a href="contact.html">Contact Us</a>
+    
+  </div>
+
+  <div class="faculty-container">
+    
+    <div class="faculty-card">
+      <img class="faculty-img" src="images/HOD.jpg" alt="Faculty 1">
+      <div class="faculty-info">
+        <h2>Prof. Abraham Mansah</h2>
+        <p> The Head of Department C</p>
+      </div>
+    </div>
+
+    
+    <div class="faculty-card">
+      <img class="faculty-img" src="images/course.adv.jpg" alt="Faculty 2">
+      <div class="faculty-info">
+        <h2>Doctor Mark Atta Mensah</h2>
+        <p>Course Advisor</p>
+      </div>
+    </div>
+
+    
+    <div class="faculty-card">
+      <img class="faculty-img" src="images/lecture.jpg" alt="Faculty 3">
+      <div class="faculty-info">
+        <h2>Prof. Adams Williams</h2>
+        <p>Lecturer</p>
+      </div>
+    </div>
+
+    
+    <div class="faculty-card">
+      <img class="faculty-img" src="images/building.jpg" alt="Faculty 4">
+      <div class="faculty-info">
+        <h2>computer science department building</h2>
+        <p>opposite the maths department</p>
+      </div>
+    </div>
+
+    
+    <div class="faculty-card">
+      <img class="faculty-img" src="images/download.jpeg" alt="Faculty 5">
+      <div class="faculty-info">
+        <h2>Facility</h2>
+        <p>Lecture Hall</p>
+      </div>
+    </div>
+
+    
+    <div class="faculty-card">
+      <img class="faculty-img" src="images/library.jpeg" alt="Faculty 6">
+      <div class="faculty-info">
+        <h2>Facility</h2>
+        <p>Department of Computer Science Library</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Your School Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>

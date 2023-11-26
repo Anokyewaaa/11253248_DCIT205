@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.school-logo {
+    max-width: 300px; 
+    margin-right: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.category {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.category h2 {
+    color: #333;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}

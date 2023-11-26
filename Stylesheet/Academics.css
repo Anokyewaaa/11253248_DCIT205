@@ -1,0 +1,58 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff; 
+             background: linear-gradient(45deg, #979393, #dddddd);
+        }
+
+        header, footer, nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            display: inline-block;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .tab.active {
+            background-color: #333;
+        }
+
+        .tab-content {
+            display: none;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+    

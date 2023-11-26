@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Ghana Computer science Department</title>
+    <title>University of Ghana Computer Science Department - About Us</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            color: #ffffff; 
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
         }
 
         header {
@@ -16,38 +27,16 @@
             color: #fff;
             text-align: center;
             padding: 1em;
-        }
-
-        #school-logo, #department-logo {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-
-        #video-container {
             position: relative;
-            text-align: center;
-            color: #fff;
-        }
-
-        #background-video {
-            width: 100%;
-            height: auto;
-        }
-
-        #video-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 2em;
+            z-index: 1;
         }
 
         nav {
             text-align: center;
             background-color: #333;
             padding: 1em;
+            position: relative;
+            z-index: 1;
         }
 
         nav a {
@@ -61,6 +50,8 @@
         section {
             padding: 2em;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
 
         footer {
@@ -68,51 +59,68 @@
             color: #fff;
             text-align: center;
             padding: 1em;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+            position: relative;
+            z-index: 1;
+        }
+        .social-icons{
+            height: 60px;
+            width: 50px;
+            border-radius: 6px;
+            margin: 7px;
         }
     </style>
 </head>
 <body>
 
+    <video autoplay loop muted>
+        <source src="images/hand_on_a_computer_mouse (1080p).mp4" type="video/mp4">
+        
+    </video>
+
     <header>
         <img id="school-logo" src="images/comScience_logo.png" alt="School Logo">
-        <h1>Welcome To UG Computer Science Department</h1>
+        <h1>Welcome To COMPSSA</h1>
     </header>
 
     <nav>
         <a href="home.html">Home</a>
-        <a href="About.html">About us</a>
-        <a href="Academics.html">Academics</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html">Academics</a>
         <a href="Events.html">Events</a>
         <a href="Faculty.html">Faculty</a>
         <a href="contact.html">Contact Us</a>
-        
+         <a href="Resources.html">Resource</a>
     </nav>
 
     <section id="about">
-        <h2>About Us</h2>
-        <p>The University of Ghana Computer Science Depratment focuses and offer skills and knowledge in theory design and application of computer systems. 
-            Students in this department learn about programming algorithms, data structure , artificial intelligence and more.
-        you can visit all our pages to explore the website and get more insight. </p>
-        <p>You can also check out our websites</p>
-         <p>Location:
-            University Of Ghana, Legon Campus
-            Opposite Mathematics Department
-           </p>
-            
-           
-    </section>
-   <footer>
-        <p>Contact Us
-            Phone & Email:
-            +233 501 382 035/
-            +233 559 145 698/
-            dcs@ug.edu.gh</p>
-            Copyright ©2023 All rights reserved
+        <h2>Hey you found us!!🤭
+        </h2>
+        <p>"Welcome to our school's website! We're thrilled to have you here. Explore our vibrant community, dedicated faculty, and exciting learning opportunities. Get ready to embark on an incredible educational journey with us</p>
+            <p>The University of Ghana Computer Science Depratment focuses and offer skills and knowledge in theory design and application of computer systems. 
+                Students in this department learn about programming algorithms, data structure , artificial intelligence and more.
+            you can visit all our pages to explore the website and get more insight. </p>
+            <p>You can also check out our websites</p>
+             <p>Location:
+                University Of Ghana, Legon Campus
+                Opposite Mathematics Department
+               </p>
+               <p> Contact Us</p>
+          <p> Phone & Email:</p> 
+           <p>+233 501 382 035</p> 
+           <p>+233 559 145 698</p> 
+            <p>dcs@ug.edu.gh</p>
 
-    </footer>
+               
+
+    </section>
+
+    <footer>
+        <a href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/"><img src="images/instagram.jpg" alt="instagram picture " class="social-icons"></a>
+    <a href="https://twitter.com/univofghana"><img src="images/twitter logo.jpg" alt="twitter picture" class="social-icons"></a>
+    <a href="https://www.facebook.com/University-of-GhanaDepartment-of-Computer-Science-116786389698948/?ref=search&__tn__=%2Cd%2CP-R&eid=ARBBAU8wKSNVs2fNZimGERUZJeac3TbmQsaZDsz4ZoEqZ95bzGZf3siMET6V1B1NuOzqLZwhXCqqrtIt"><img src="images/facebook picture.jpg" alt="facebook picture" class="social-icons"></a>
+    <P>Copyright ©2023 All rights reserved</P>
+   </footer>
+
 
 </body>
 </html>

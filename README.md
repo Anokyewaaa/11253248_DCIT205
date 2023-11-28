@@ -1,15 +1,15 @@
 # DCIT_205_IA
 
-Student_ID-111111
-Name ndndndd
+Student_ID-11253248
+Name Akonnor Adwoa Anokyewaa
 
 ## INTRODUCTION
 
-   Welcome to the official repository for the University of Ghana Department of Computer Science website. This project represents a comprehensive web solution I developed using HTML, CSS, and JavaScript to enhance the online presence of the department. As a dynamic and engaging platform, this ten-paged website aims to serve as an informative hub for students, faculty, and visitors.
+   Welcome to the University of Ghana's Department of Computer Science website's official repository. This project offers a full web solution I created utilizing HTML, CSS, and JavaScript to improve the department's online presence. This ten-page website seeks to serve as an informative hub for students, professors, and visitors as a dynamic and engaging platform.
 
 ## PURPOSE
 
- The purpose of this project is to provide a user-friendly and visually appealing digital space for the Department of Computer Science at the University of Ghana. Through carefully crafted HTML structures, responsive CSS layouts, and interactive JavaScript elements, the website delivers essential information about the department's programs, academic calendar, faculty profiles, and research initiatives
+ The goal of this project is to create a user-friendly and visually appealing digital area for the University of Ghana's Department of Computer Science. The website provides crucial information about the department's programs, academic calendar, faculty profiles, and research objectives through properly built HTML structures, responsive CSS layouts, and interactive JavaScript features.
 
 ## Clone and set up the project
 
@@ -39,7 +39,7 @@ Name ndndndd
         * Right click and choose your browser
         * make changes if needed
 
-#### 6 Commit your changes If you want to 💠 which I would be glad to see
+#### 6 Commit your changes
 
           * git add .
           * git commit -m" Describe the changes made"
@@ -47,29 +47,32 @@ Name ndndndd
 
 ### ScreenShots
 
-![Alt text](<images/Home page.png>)
-![Alt text](<images/home page 1.png>)
-![About](<images/about us 1.png>)
-![Alt text](<images/About us.png>)
-![Alt text](<images/Academics page.png>)
-![Alt text](<images/academics 1.png>)
-![Alt text](<images/IT Cources.png>)
-![Alt text](<images/IT courses 2.png>)
-![Alt text](<images/IT Courses 3.png>)
-![Alt text](<images/It course 4.png>)
-![Alt text](<images/Computer Science Courses.png>)
-![Alt text](<images/cs courses.png>)
-![Alt text](<images/cs corse 3.png>)
-![Alt text](<images/event page.png>)
-![Alt text](<images/catalog page.png>)
-![Alt text](<images/cata;og 1.png>)
+![Home](<images/Home page.png>)
+![Home Page](<images/home page 1.png>)
+![About US](<images/about us 1.png>)
+![About Us](<images/About us.png>)
+![Academics](<images/Academics page.png>)
+![Academics](<images/academics 1.png>)
+![IT Courses](<images/IT Cources.png>)
+![IT Courses](<images/IT courses 2.png>)
+![IT Courses](<images/IT Courses 3.png>)
+![IT Courses](<images/It course 4.png>)
+![CS Courses](<images/Computer Science Courses.png>)
+![CS Courses](<images/cs courses.png>)
+![CS Courses](<images/cs corse 3.png>)
+![events](<images/event page.png>)
+![catalog page](<images/catalog page.png>)
+![Catalog](<images/cata;og 1.png>)
 ![Contact US](<images/Contact Us page.png>)
+![Resource](<images/resource 1.png>)
+![Resource](<images/resource 2.png>)
+![Resource](<images/resource 3.png>)
+![Faculty](<images/faculty 1.png>)
+![Faculty](<images/faculty 2.png>)
+![Faculty](<images/faculty 3.png>)
+![Faculty](<images/faculty 4.png>)
+![Faculty](<images/faculty 5.png>)
 
+### LESSON LEARNED
 
-
-
-
-
-
-
-
+Throughout the development of the project, I have learned when building a website, I discovered the value of structuring and commenting my code. It may appear to be a little detail, but taking the time to cleanly structure my code and add comments throughout makes it much easier to comprehend and maintain. It is also useful when collaborating with others or returning to the project later. I can save myself a lot of time and grief in the long run by keeping the code tidy and providing comments to clarify its purpose.

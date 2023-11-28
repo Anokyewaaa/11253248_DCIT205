@@ -6,26 +6,8 @@
     <title>University of Ghana Computer Science Department - Academics</title>
     <link rel="Stylesheet" href="stylesheet/Academics.css">
     
-    <script>
-        function showTab(tabName) {
-            
-            var tabContents = document.getElementsByClassName("tab-content");
-            for (var i = 0; i < tabContents.length; i++) {
-                tabContents[i].classList.remove("active");
-            }
-
-            
-            var tabs = document.getElementsByClassName("tab");
-            for (var i = 0; i < tabs.length; i++) {
-                tabs[i].classList.remove("active");
-            }
-
-            
-            document.getElementById(tabName + "-content").classList.add("active");
-
-            
-            document.getElementById(tabName).classList.add("active");
-        }
+    <script src="Academics.js">
+     
     </script>
 </head>
 <body>
@@ -43,6 +25,7 @@
         <a href="Faculty.html">Faculty</a>
         <a href="Resources.html">Resources</a>
         <a href="contact.html">Contact Us</a>
+        <a href="catalog.html">catalog</a>
     </nav>
 
     <section id="academics">
